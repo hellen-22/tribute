@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(90deg, rgba(56, 48, 48,0.66), rgba(41, 35, 35, 0.158));
+    font-family: sans-serif;
+}
+header{
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+#title{
+    text-shadow: 1px 1px 1px #000;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.paragraph{
+    font-weight: bold;
+    font-size: 25px;
+}
+#img-div{
+    display: flex;
+    justify-content: center;
+}
+#image{
+    max-width: 100%;
+    display: block;
+    justify-content: center;
+    width: 1000px;
+}
+figcaption{
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-style: italic;
+}
+#tribute-info{
+    text-align: center;
+}
+.container-info{
+    font-size: 18px;
+}
+.link{
+    text-align: center;
+    font-size: 18px;
+}
+@media(max-height 800px){
+    #image{
+        display: flex;
+        justify-content: center;
+        width: 1000px;
+}
+@media(min-height 100px){
+    #image{
+        display: flex;
+        justify-content: center;
+        width: 1000px;
+}
